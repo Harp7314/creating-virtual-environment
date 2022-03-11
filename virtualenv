@@ -8,4 +8,4 @@ source project_1/bin/activate # activate your virtual environment
 """You can install packages in this enviroment as need; using pip"""
 pip freeze --local> requirements.text # copies all packages in the enviroment incase needed for another project
 deactivate # to exit out of virtual environment back to global environment
-rm -rf project_1/ # completly deletes the virtual environment
+rm -rf project_1/ # completly deletes the project created in the virtual environment 
