@@ -1,0 +1,7 @@
+pip list # on cmd to check if you have virtualenv installed, If not do following:
+pip install virtualenv #on cmd terminal
+mkdir Environments
+cd Environmrnts
+virtualenv project_1 # staring project
+source project_1/bin/activate # activate your virtual environment
+"""now you are in your virtual environment"""
